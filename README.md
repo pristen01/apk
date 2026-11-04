@@ -1,41 +1,32 @@
-# Align 0.3 — automatic scans and animated anatomy
+# Align 0.4 — tap your body, explore exercises
 
-[Download the latest Android APK](https://github.com/pristen01/apk/raw/refs/heads/main/Align-0.3.0.apk)
+[Download Align 0.4.0 for Android](https://github.com/pristen01/apk/raw/refs/heads/main/Align-0.4.0.apk)
 
-Android 8 or newer with an updated Android System WebView. Install over the previous version; package name and signing key are unchanged.
+Open the downloaded APK and choose Update. Android 8 or newer; the package and signing key match earlier versions, so uninstalling is unnecessary.
 
-## Ten 3D exercise guides
+## Body-first home
+Tap the rotatable human body or a labelled body-area button: chest, shoulders, arms, back, core/pelvis, hips/glutes, front thighs, hamstrings or calves. Each selection opens matching exercise guides with instructions, targets, sets, repetitions and timing.
 
-Pelvic tilt, abdominal brace, bridge, bird dog, side-lying hip abduction, clamshell, hip-flexor stretch, calf raise, calf stretch and a clinician-gated sciatic nerve slider.
+Six new general gym demonstrations join the ten existing guides: wall press-up, supported mini squat, biceps curl, lateral raise, seated resistance-band row and knee extension. Choosing an area browses educational options; it does not diagnose pain or prescribe rehabilitation.
 
-Each guide includes a rotatable full-body atlas, muscle/bone/nerve toggles, intended target highlights, technique, common errors, an easier option, sets/reps/hold/rest controls, total time, spoken cues, side changes and completion logging. A standing atlas view is also included.
+## Clearer anatomy
+More retained atlas surface detail, separate biceps/triceps highlights, opaque muscle view, full-movement camera fitting for portrait and landscape, and fullscreen controls. Sharp uses screen resolution up to 3x; Ultra renders up to 3840 pixels on the long edge, subject to device limits. Balanced reduces rendering load. Ultra increases draw resolution, not anatomical or clinical accuracy; performance varies by device.
 
-## How to use
+## Using the app
+1. Tap a body area on Home, then an exercise.
+2. Read the technique, intended targets and example dose. Rotate or zoom the model; select Fullscreen or change Render quality.
+3. For guided practice, complete My practice plan's symptom check and use a clinician-advised exercise and dose appropriate to your injury.
+4. The camera scanner remains under Posture check. Session records remain under My progress.
 
-1. Open Exercises and select Watch & understand. Drag to rotate, pinch to zoom, and toggle layers.
-2. Read the technique, intended targets, stop signals and source dose.
-3. In My practice plan, complete today's symptom check. Injury symptoms should be assessed before guided practice.
-4. Choose the specific exercise and dose advised for you, confirm comfort, and start the timer. Pause or stop whenever needed.
-5. Review completed sets and repetitions in My progress.
+The sciatic nerve slider remains clinician-gated with no default therapeutic rep count. Scan angles are never used to assign a weak side or diagnose anterior pelvic tilt.
 
-Choices use your goals and symptom answers. Scan angles do not diagnose anterior pelvic tilt, determine a weak side or prescribe treatment. The sciatic slider has no default therapeutic repetition count.
+## Sources, licenses and limits
+Sources are linked in every guide. NHS strength guidance informs wall press-ups and mini squats. Other new gym examples are original general fitness demonstrations with editable example doses; anatomy references describe muscle actions, not rehabilitation prescriptions.
 
-The automatic four-view scanner from 0.2 is retained.
+Anatomical meshes derive from Z-Anatomy / BodyParts3D under CC BY-SA; notices and adaptations are bundled. [Download adapted model and animation source](https://github.com/pristen01/apk/raw/refs/heads/main/Align-0.4.0-anatomy-source.zip). User-supplied videos are not redistributed.
 
-## Sources and attribution
+23 automated checks passed, including region links, anatomy groups, camera fitting, symptom gates, timing and scan geometry. New posed geometry was reviewed in offscreen renders. APK contents and update signing certificate were verified. Physical Android and live browser interaction remain unverified. Posing is an approximate educational illustration, not a clinically validated form demonstration or nerve simulation.
 
-Every guide links to its source. Examples: [AAOS spine conditioning](https://www.orthoinfo.org/recovery/spine-conditioning-program/), [NHS strength guidance](https://www.nhs.uk/live-well/exercise/strength-exercises/), [South Tees NHS sciatic slider](https://www.southtees.nhs.uk/resources/sciatic-nerve-slider/), [NICE NG59](https://www.nice.org.uk/guidance/ng59/chapter/Recommendations), and OpenStax Anatomy & Physiology 2e. These organizations do not endorse this app.
+Camera images stay in memory; journals and measurements stay locally on the device.
 
-Anatomical meshes are adapted from Z-Anatomy / BodyParts3D under CC BY-SA. Source and license notices are included in the app. Social-media examples informed the visual brief and are not redistributed.
-
-[Download the adapted model, animation source and license notices](https://github.com/pristen01/apk/raw/refs/heads/main/Align-0.3.0-anatomy-source.zip)
-
-## Verification and limits
-
-19 checks pass for symptom gating, dose handling, timing, side changes, joint weights, clamshell kinematics and scan geometry. The bundled WebAssembly decoder reads all 17 atlas draw groups. Rendered poses were visually reviewed. APK contents, signature and update signing certificate were checked.
-
-Joint posing is an approximate educational illustration, not a clinically validated rehabilitation demonstration or a measurement of muscle activation or nerve tension. Live browser interaction and physical Android use remain unverified. Exercise suggestions are not a personalized medical prescription.
-
-Photos stay in memory. Reports, symptom answers, draft plans and exercise completions stay locally on the device. No cloud health-data sync.
-
-APK SHA-256: `da829a0dedccb930f098ea1e6f1b45453b1137c253f3c62c8dc8c95fa70b6e7c`
+APK SHA-256: `203f69508e76eb652dcb69511e43d254f18761ab4445ed7e94119f7e7831083f`
