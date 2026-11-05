@@ -1,23 +1,27 @@
-# Align 0.8 Preview — Back & Nerve Care
+# Align 0.9 Preview — individual back muscles
 
-[Download the verified 0.8.0 Preview APK ZIP](https://github.com/pristen01/apk/actions/runs/42107084707/artifacts/13452367353). Sign into GitHub, extract the ZIP and install Align-0.8.0-preview.apk.
+[Download Align 0.9.0 Preview APK ZIP](https://github.com/pristen01/apk/actions/runs/42109585213/artifacts/13453725584). Sign into GitHub, extract the ZIP and open Align-0.9.0-preview.apk.
 
-Export your existing Preview data before uninstalling/replacing it: Actions builds currently generate a fresh preview signing certificate. Android may require removing the old Preview first. Keep the original Align app; it is separate.
+Export your current Preview data first. Each Actions run currently uses a new preview signing certificate, so Android may require uninstalling the previous Preview. Keep the original Align app; it is separate.
 
-## Changes in 0.8
+## Individual back anatomy
 
-Home has a prominent Back & Nerve Care card. The bottom navigation also labels it Back care. The previous stick-figure cards are replaced with original atlas imagery and typographic journal cards.
+The atlas now retains separately named source meshes for upper/middle/lower trapezius, latissimus dorsi, rhomboid major/minor, posterior deltoid, infraspinatus, teres major/minor, longissimus, iliocostalis, multifidus, spinalis and quadratus lumborum. These are source anatomical structures, not regions guessed from screen coordinates.
 
-The hub explicitly covers lower-back pain, sciatica, disc herniation, anterior pelvic tilt, tight hips, tight hamstrings, tight glutes, tight calves, hip imbalance and flare-up support. Each topic provides educational context, positioning demonstrations, relevant home/bodyweight or supported-strength guide links and source links. Neural/disc topics do not automatically offer a gym routine or nerve-slider dose. No mandatory exercise is imposed during a flare-up.
+Home → Explore back muscles opens the named picker and rotates to the back. Tap a visible muscle or choose its name to see its role and relevant exercise guides. Expose deep back filters out superficial muscles while retaining skeletal context. Muscle taps take priority over context bones in atlas mode. Each muscle page explains that exercises recruit multiple muscles rather than isolating activation perfectly.
 
-Sources include NHS back pain/sciatica/slipped-disc guidance, NICE NG59, AAOS conditioning guides and the pelvic-tilt observational study. Tightness, visible asymmetry and pelvic tilt are not presented as proof of disc herniation. No decompression or posture-correction cure is promised.
+The library now has 30 guides. Six additions cover gentle shoulder shrugs, Y raises, pulldown technique, rear-delt fly technique, external rotation and supported scapular retraction. Example doses remain editable, and the app does not prescribe heavy loading from anatomical appearance.
 
-The 24-guide library, regional anatomy, routines, weekly schedule, workout logging, journal and imports/exports remain available.
+Back & Nerve Care, camera checks, regional browsing, planning, workout logging and journals remain available.
 
-37 automated tests passed. Home image paths and unique document IDs were checked. GitHub compilation, signing verification and artifact upload succeeded. Physical-phone appearance and interactions remain unverified; atlas poses are educational approximations, not clinically validated rehabilitation demonstrations.
+## Validation and limits
 
-## Build and attribution
+40 local checks passed, including individual-mesh presence, muscle-to-exercise routes, distinct trapezius selections, legacy highlight aliases, pose geometry and symptom gates. The GitHub workflow rebuilt the atlas, compiled the APK and verified signing successfully. Physical-phone interaction and new motion appearance remain unverified. Posing is approximate educational illustration, not a clinical form assessment or an activation/nerve-tension measurement.
 
-Actions → Build Align Preview APK → Run workflow. Builds use verified 0.4 bundled assets plus the embedded current source overlay; no user data or private signing key is included. Artifacts last 30 days.
+## Sources and build
 
-Anatomy derives from Z-Anatomy / BodyParts3D under CC BY-SA with bundled notices; Three.js is MIT and Draco is Apache-2.0. Home anatomy images are original renders of the attributed atlas. [openGym](https://github.com/DuarteSantos8/openGym) informed the original schedule and action hierarchy; no openGym source or assets were copied.
+The workflow rebuilds attributed Z-Anatomy / BodyParts3D meshes from pinned public source revision `8ca3b7421bcfbe88b85859eb1983d5cf79f21749`, using the bundled preparation script. Meshes and adaptations retain CC BY-SA notices. Three.js is MIT; Draco is Apache-2.0.
+
+Muscle actions are summarized from OpenStax anatomy; AAOS shoulder conditioning informs relevant technique. Both are linked inside the guides. Neither endorses this app. The screenshot served as a visual requirement; its image is not redistributed.
+
+Actions → Build Align Preview APK → Run workflow. Artifacts last 30 days. No user data or private signing key is included in the source overlay.
