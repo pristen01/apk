@@ -1,8 +1,14 @@
-# Align 0.9 Preview — individual back muscles
+# Align 0.10 Preview — color-coded full-body anatomy
 
-[Download Align 0.9.0 Preview APK ZIP](https://github.com/pristen01/apk/actions/runs/42109585213/artifacts/13453725584). Sign into GitHub, extract the ZIP and open Align-0.9.0-preview.apk.
+[Download Align 0.10.0 Preview APK ZIP](https://github.com/pristen01/apk/actions/runs/42110162451/artifacts/13452829382). Sign into GitHub, extract the ZIP and open Align-0.10.0-preview.apk.
 
 Export your current Preview data first. Each Actions run currently uses a new preview signing certificate, so Android may require uninstalling the previous Preview. Keep the original Align app; it is separate.
+
+## Whole-body browsing in 0.10
+
+The anatomy view uses distinct colors for chest, shoulders, arms, core, back, glutes and legs. Front/back switching is visible above the model. Biceps and triceps have distinct tap routes, and named glute/hip targets supplement the detailed back picker. Colors identify anatomy, not activation, recovery status or muscle weakness; a selected target remains highlighted green. Group colors can be switched off.
+
+42 automated checks passed, including individual muscle routing and color mappings. The GitHub model rebuild, APK compilation and signature verification passed. Physical-phone appearance remains unverified.
 
 ## Individual back anatomy
 
