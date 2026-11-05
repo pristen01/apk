@@ -1,34 +1,23 @@
-# Align 0.7.1 Preview — anatomy, movement and care
+# Align 0.8 Preview — Back & Nerve Care
 
-[Download the latest APK ZIP](https://github.com/pristen01/apk/actions/runs/42104419218/artifacts/13451975403) while signed into GitHub. Extract the ZIP and install Align-0.7.1-preview.apk.
+[Download the verified 0.8.0 Preview APK ZIP](https://github.com/pristen01/apk/actions/runs/42107084707/artifacts/13452367353). Sign into GitHub, extract the ZIP and install Align-0.8.0-preview.apk.
 
-Export any data in an earlier Align Preview before uninstalling it. Each Actions build currently generates a new preview signing certificate, so Android may require removing the prior Preview. The original Align app is separate and should be kept.
+Export your existing Preview data before uninstalling/replacing it: Actions builds currently generate a fresh preview signing certificate. Android may require removing the old Preview first. Keep the original Align app; it is separate.
 
-## Layout reference applied in 0.7.1
+## Changes in 0.8
 
-The user video identified [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym). Its Home, Plan and Workout views informed an original Monday-first weekly strip, day-filtered routines and a quieter workout screen with secondary exercise actions under More. Schedule dots represent actual local routines/logged workouts. No openGym source code or assets were copied. The interactive Align anatomy remains central.
+Home has a prominent Back & Nerve Care card. The bottom navigation also labels it Back care. The previous stick-figure cards are replaced with original atlas imagery and typographic journal cards.
 
-34 automated tests passed, including new local-date/week-boundary tests. GitHub build and signing verification passed; physical-phone layout remains unverified.
+The hub explicitly covers lower-back pain, sciatica, disc herniation, anterior pelvic tilt, tight hips, tight hamstrings, tight glutes, tight calves, hip imbalance and flare-up support. Each topic provides educational context, positioning demonstrations, relevant home/bodyweight or supported-strength guide links and source links. Neural/disc topics do not automatically offer a gym routine or nerve-slider dose. No mandatory exercise is imposed during a flare-up.
 
-## Design changes in 0.7
+Sources include NHS back pain/sciatica/slipped-disc guidance, NICE NG59, AAOS conditioning guides and the pelvic-tilt observational study. Tightness, visible asymmetry and pelvic tilt are not presented as proof of disc herniation. No decompression or posture-correction cure is promised.
 
-A graphite design with teal, iris and champagne accents; anatomy-first hierarchy, expandable viewing tools, five-item bottom navigation with vector icons, revised focus selection, exercise cards, training cards, calendar, Care pages and dialogs. Text and controls use a consistent spacing and contrast system. Camera scanning remains available from the Body screen. Reduced-motion preferences are respected. The openGym reference is now identified and its relevant layout structure has been reviewed.
+The 24-guide library, regional anatomy, routines, weekly schedule, workout logging, journal and imports/exports remain available.
 
-Build and signature checks passed; 32 automated tests and document/style checks passed. Live phone appearance remains unverified.
+37 automated tests passed. Home image paths and unique document IDs were checked. GitHub compilation, signing verification and artifact upload succeeded. Physical-phone appearance and interactions remain unverified; atlas poses are educational approximations, not clinically validated rehabilitation demonstrations.
 
-## Features from 0.6
+## Build and attribution
 
-- Upper back and lower back are separate selectable areas. Forearm muscle geometry is separated at runtime from the bundled merged muscle group for regional selection/highlighting. Quads, hamstrings and calves remain individually accessible.
-- 24 built-in guides: eight additions cover forearm movement, heel slides, glute activation, shoulder-blade setting, band-row technique, supported hip abduction and seated calf work. New cards open the animated guide rather than showing an unrelated movement thumbnail.
-- Dedicated Care section: sciatica flare-up guidance, sitting and sleep-position anatomy, home/bodyweight and supported-strength options, a clinician-gated nerve slider, plus separate hip-control and pelvic-movement guides.
-- Teal, blue and warm accents distinguish anatomy, care and training; stronger cards and larger controls improve visual hierarchy.
+Actions → Build Align Preview APK → Run workflow. Builds use verified 0.4 bundled assets plus the embedded current source overlay; no user data or private signing key is included. Artifacts last 30 days.
 
-Care links to NHS sciatica information, NHS Wales sleeping guidance and South Tees sciatica facts. These are original educational summaries, not personal prescriptions or promises to release nerve compression. Pelvic tilt and visible asymmetry do not diagnose the source of pain.
-
-32 automated checks pass. The GitHub Actions build compiled and verified the APK signature. Physical-phone behavior and the new educational poses have not been clinically validated; use written technique and individualized advice. Existing rotatable anatomy, camera scanner, routines, logging, imports/exports and journals are retained.
-
-## Build again
-
-Actions → Build Align Preview APK → Run workflow. The workflow restores verified base assets and overlays embedded source. Artifacts are retained 30 days. It includes no private signing key or user data.
-
-Anatomy derives from Z-Anatomy / BodyParts3D under CC BY-SA. Attribution and original clinical source links are bundled. Three.js is MIT; Draco is Apache-2.0. Runtime regional grouping is an approximate display adaptation. New card previews label anatomy/guide availability rather than claiming a photographed demonstration.
+Anatomy derives from Z-Anatomy / BodyParts3D under CC BY-SA with bundled notices; Three.js is MIT and Draco is Apache-2.0. Home anatomy images are original renders of the attributed atlas. [openGym](https://github.com/DuarteSantos8/openGym) informed the original schedule and action hierarchy; no openGym source or assets were copied.
