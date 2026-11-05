@@ -1,6 +1,9 @@
 name: Build Align 0.5 Preview APK
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/build-align.yml'
 permissions:
   contents: read
 jobs:
