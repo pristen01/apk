@@ -2,9 +2,9 @@
 
 ## Align 0.5 Preview via GitHub Actions
 
-[Open the build](https://github.com/pristen01/apk/actions/runs/42022519504) or [all builds](https://github.com/pristen01/apk/actions).
+[Open the build](https://github.com/pristen01/apk/actions/runs/42022712835) or [all builds](https://github.com/pristen01/apk/actions).
 
-When the build shows a green success check, open its summary and download **Align-0.5.0-preview** under **Artifacts**. Sign in to GitHub to download the ZIP. Extract it and open `Align-0.5.0-preview.apk` on your Android phone.
+The initial build succeeded. To download it, open its summary and download **Align-0.5.0-preview** under **Artifacts**. Sign in to GitHub to download the ZIP. Extract it and open `Align-0.5.0-preview.apk` on your Android phone.
 
 The app is named **Align Preview** and installs alongside Align 0.4. It has a separate local journal; it does not migrate or delete your existing app data. Each workflow run uses a fresh preview signing key. A future preview build may require uninstalling the previous preview; export its data first. The original app is unaffected.
 
