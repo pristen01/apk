@@ -1,10 +1,16 @@
-# Align 0.6 Preview — anatomy, movement and care
+# Align 0.7 Preview — anatomy, movement and care
 
-[Download the latest APK ZIP](https://github.com/pristen01/apk/actions/runs/42102314347/artifacts/13448324507) while signed into GitHub. Extract the ZIP and install Align-0.6.0-preview.apk.
+[Download the latest APK ZIP](https://github.com/pristen01/apk/actions/runs/42103812103/artifacts/13450388657) while signed into GitHub. Extract the ZIP and install Align-0.7.0-preview.apk.
 
 Export any data in an earlier Align Preview before uninstalling it. Each Actions build currently generates a new preview signing certificate, so Android may require removing the prior Preview. The original Align app is separate and should be kept.
 
-## Changes in 0.6
+## Design changes in 0.7
+
+A graphite design with teal, iris and champagne accents; anatomy-first hierarchy, expandable viewing tools, five-item bottom navigation with vector icons, revised focus selection, exercise cards, training cards, calendar, Care pages and dialogs. Text and controls use a consistent spacing and contrast system. Camera scanning remains available from the Body screen. Reduced-motion preferences are respected. The requested repository references have not yet been supplied; this pass implements the approved visual direction.
+
+Build and signature checks passed; 32 automated tests and document/style checks passed. Live phone appearance remains unverified.
+
+## Features from 0.6
 
 - Upper back and lower back are separate selectable areas. Forearm muscle geometry is separated at runtime from the bundled merged muscle group for regional selection/highlighting. Quads, hamstrings and calves remain individually accessible.
 - 24 built-in guides: eight additions cover forearm movement, heel slides, glute activation, shoulder-blade setting, band-row technique, supported hip abduction and seated calf work. New cards open the animated guide rather than showing an unrelated movement thumbnail.
@@ -17,6 +23,6 @@ Care links to NHS sciatica information, NHS Wales sleeping guidance and South Te
 
 ## Build again
 
-Actions → Build Align 0.5 Preview APK → Run workflow. The workflow restores verified base assets and overlays embedded source. Artifacts are retained 30 days. It includes no private signing key or user data.
+Actions → Build Align Preview APK → Run workflow. The workflow restores verified base assets and overlays embedded source. Artifacts are retained 30 days. It includes no private signing key or user data.
 
 Anatomy derives from Z-Anatomy / BodyParts3D under CC BY-SA. Attribution and original clinical source links are bundled. Three.js is MIT; Draco is Apache-2.0. Runtime regional grouping is an approximate display adaptation. New card previews label anatomy/guide availability rather than claiming a photographed demonstration.
