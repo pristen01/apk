@@ -1,12 +1,18 @@
-# Align 0.7 Preview — anatomy, movement and care
+# Align 0.7.1 Preview — anatomy, movement and care
 
-[Download the latest APK ZIP](https://github.com/pristen01/apk/actions/runs/42103812103/artifacts/13450388657) while signed into GitHub. Extract the ZIP and install Align-0.7.0-preview.apk.
+[Download the latest APK ZIP](https://github.com/pristen01/apk/actions/runs/42104419218/artifacts/13451975403) while signed into GitHub. Extract the ZIP and install Align-0.7.1-preview.apk.
 
 Export any data in an earlier Align Preview before uninstalling it. Each Actions build currently generates a new preview signing certificate, so Android may require removing the prior Preview. The original Align app is separate and should be kept.
 
+## Layout reference applied in 0.7.1
+
+The user video identified [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym). Its Home, Plan and Workout views informed an original Monday-first weekly strip, day-filtered routines and a quieter workout screen with secondary exercise actions under More. Schedule dots represent actual local routines/logged workouts. No openGym source code or assets were copied. The interactive Align anatomy remains central.
+
+34 automated tests passed, including new local-date/week-boundary tests. GitHub build and signing verification passed; physical-phone layout remains unverified.
+
 ## Design changes in 0.7
 
-A graphite design with teal, iris and champagne accents; anatomy-first hierarchy, expandable viewing tools, five-item bottom navigation with vector icons, revised focus selection, exercise cards, training cards, calendar, Care pages and dialogs. Text and controls use a consistent spacing and contrast system. Camera scanning remains available from the Body screen. Reduced-motion preferences are respected. The requested repository references have not yet been supplied; this pass implements the approved visual direction.
+A graphite design with teal, iris and champagne accents; anatomy-first hierarchy, expandable viewing tools, five-item bottom navigation with vector icons, revised focus selection, exercise cards, training cards, calendar, Care pages and dialogs. Text and controls use a consistent spacing and contrast system. Camera scanning remains available from the Body screen. Reduced-motion preferences are respected. The openGym reference is now identified and its relevant layout structure has been reviewed.
 
 Build and signature checks passed; 32 automated tests and document/style checks passed. Live phone appearance remains unverified.
 
