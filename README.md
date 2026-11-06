@@ -1,33 +1,25 @@
-# Align 0.10 Preview — color-coded full-body anatomy
+# Align 0.10.1 Preview — direct Sciatica exercise guides
 
-[Download Align 0.10.0 Preview APK ZIP](https://github.com/pristen01/apk/actions/runs/42110162451/artifacts/13452829382). Sign into GitHub, extract the ZIP and open Align-0.10.0-preview.apk.
+[Download the APK ZIP](https://github.com/pristen01/apk/actions/runs/42261564748/artifacts/13525296975). Sign into GitHub, extract the ZIP and open Align-0.10.1-preview.apk.
 
-Export your current Preview data first. Each Actions run currently uses a new preview signing certificate, so Android may require uninstalling the previous Preview. Keep the original Align app; it is separate.
+Export data from your current Align Preview first. Each Actions run currently creates a new preview signing key; Android may require uninstalling the previous Preview. Keep the original Align app, which is separate.
 
-## Whole-body browsing in 0.10
+## Finding sciatica support
 
-The anatomy view uses distinct colors for chest, shoulders, arms, core, back, glutes and legs. Front/back switching is visible above the model. Biceps and triceps have distinct tap routes, and named glute/hip targets supplement the detailed back picker. Colors identify anatomy, not activation, recovery status or muscle weakness; a selected target remains highlighted green. Group colors can be switched off.
+Tap **Sciatica** in the bottom navigation or the **Sciatica & leg pain** card on Home. Both open the sciatica topic directly. Exercise links appear near the top, alongside shortcuts for sleep/sitting and flare-up support. Other lower-back, disc and hip/tightness topics are in an expandable section.
 
-42 automated checks passed, including individual muscle routing and color mappings. The GitHub model rebuild, APK compilation and signature verification passed. Physical-phone appearance remains unverified.
+The exercise links are educational options with suitability checks, not a universal treatment routine. The nerve slider remains clinician-gated without a default therapeutic rep count. Loading/positioning guides do not claim to demonstrate nerve decompression.
 
-## Individual back anatomy
+## Back training overview
 
-The atlas now retains separately named source meshes for upper/middle/lower trapezius, latissimus dorsi, rhomboid major/minor, posterior deltoid, infraspinatus, teres major/minor, longissimus, iliocostalis, multifidus, spinalis and quadratus lumborum. These are source anatomical structures, not regions guessed from screen coordinates.
+Body → Explore back muscles now starts with five main families: trapezius, rhomboids, latissimus dorsi, teres major and erector spinae. Each opens anatomical functions and relevant existing exercise guides. The 15 individual back targets remain underneath; grouping does not replace individual muscle taps. General gym training is distinct from sciatic-symptom guidance.
 
-Home → Explore back muscles opens the named picker and rotates to the back. Tap a visible muscle or choose its name to see its role and relevant exercise guides. Expose deep back filters out superficial muscles while retaining skeletal context. Muscle taps take priority over context bones in atlas mode. Each muscle page explains that exercises recruit multiple muscles rather than isolating activation perfectly.
+Color-coded whole-body anatomy, visible front/back controls, 30 exercise guides, planning, logs and journals remain included.
 
-The library now has 30 guides. Six additions cover gentle shoulder shrugs, Y raises, pulldown technique, rear-delt fly technique, external rotation and supported scapular retraction. Example doses remain editable, and the app does not prescribe heavy loading from anatomical appearance.
+44 local automated checks passed before packaging. GitHub rebuilt the atlas, compiled the APK, verified signing and uploaded the artifact successfully. Physical-phone interaction remains unverified.
 
-Back & Nerve Care, camera checks, regional browsing, planning, workout logging and journals remain available.
+## Build again
 
-## Validation and limits
+Actions → **Build Align Sciatica Preview** → Run workflow. This build reads the earlier full source overlay plus two small source-patch files. It avoids repeatedly replacing the large embedded workflow. Artifacts last 30 days. The source patch contains no user data or private signing key.
 
-40 local checks passed, including individual-mesh presence, muscle-to-exercise routes, distinct trapezius selections, legacy highlight aliases, pose geometry and symptom gates. The GitHub workflow rebuilt the atlas, compiled the APK and verified signing successfully. Physical-phone interaction and new motion appearance remain unverified. Posing is approximate educational illustration, not a clinical form assessment or an activation/nerve-tension measurement.
-
-## Sources and build
-
-The workflow rebuilds attributed Z-Anatomy / BodyParts3D meshes from pinned public source revision `8ca3b7421bcfbe88b85859eb1983d5cf79f21749`, using the bundled preparation script. Meshes and adaptations retain CC BY-SA notices. Three.js is MIT; Draco is Apache-2.0.
-
-Muscle actions are summarized from OpenStax anatomy; AAOS shoulder conditioning informs relevant technique. Both are linked inside the guides. Neither endorses this app. The screenshot served as a visual requirement; its image is not redistributed.
-
-Actions → Build Align Preview APK → Run workflow. Artifacts last 30 days. No user data or private signing key is included in the source overlay.
+Anatomy derives from Z-Anatomy / BodyParts3D under CC BY-SA, with pinned source and bundled notices/preparation script. Three.js is MIT; Draco is Apache-2.0. Clinical references are linked in Care and each exercise. Uploaded reference images/videos are not redistributed. openGym informed original layout decisions; its source code was not copied.
